@@ -1,0 +1,144 @@
+:root {
+    --red: #dc3545
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+/*! ------------------- 1- NAVBAR ------------------------ */
+.navbar-light {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: color 5s;
+}
+
+.navbar-light .nav-link:hover {
+    color: var(--red) !important;
+}
+
+.navbar-brand{
+    font-family: 'Bungee Inline', cursive;
+    font-weight: 900;
+    font-size: x-large;
+    
+}
+
+.navbar-img {
+margin-right: 15px;
+}
+
+/*! ------------------- 2- CAROUSEL ------------------------ */
+
+.carousel-inner {
+    height: 86vh;
+}
+
+.carousel-caption {
+    margin-bottom: 15rem;
+    padding: 2rem;
+}
+
+.carousel-item {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel-caption h1 {
+    color: var(--red) !important;
+    font-family: cursive;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-caption p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.carousel-caption .buttons button {
+    width: 6.2rem;
+
+}
+
+.carousel-indicators {
+    margin-bottom: 3rem;
+}
+
+.carousel-indicators button {
+    margin-bottom: 10rem;
+    background-color: var(--red) !important;
+    width: 4rem !important;
+    height: 0.4rem !important;
+}
+
+/*! ------------------- 3- ABOUT ------------------------ */
+
+/*! ------------------- 4- INSTRUCTORS ------------------------ */
+.card-body .icons i {
+    transition: all 1s;
+
+}
+
+.card-body .icons i:hover {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+.card {
+    transition: transform 1s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+/*! ------------------- 5- STUDENTS SECTION ------------------------ */
+
+/*! ------------------- 6- COURSES SECTION ------------------------ */
+
+/*! ------------------- 7- CONTACT SECTION ------------------------ */
+#contact .row i {
+    color: var(--red);
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+/** ------------------- UP-BUTTON --------------------- */
+.btn .up-btn {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#upbtn {
+    border: 3px solid rgb(17, 112, 104);
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: var(--red);
+    border-radius: 50%;
+}
+
+#upbtn:hover {
+    border-color: rgb(0, 255, 251);
+}
+
+.up-btn i:hover {
+    color: yellow;
+
+}
+
+/*! -------------------- 8- FOOTER ------------------------ */
+footer a i {
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
